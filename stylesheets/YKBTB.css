@@ -1,0 +1,414 @@
+body {
+     	background: #d4dcdf;
+     	font-family: Georgia, Serif;
+     	overflow-x: hidden;
+}
+
+h1 {
+		font-size: 1.5em;
+		border-style: solid;
+		border-width: thin;
+		background-color: #3a6b7b;
+}
+
+h2 {
+		font-size: 1.25em;
+}
+
+.header {
+		background: #3a6b7b;
+		position: relative;
+        width: 80%;
+        height: 350px;
+        top: 0%;
+        right: 10%;
+        bottom: 0;
+        left: 10%;	
+}
+
+#HeaderImage > img {
+		position: relative;
+		top: 10px;
+		left: 100px;
+}
+
+/*Menu styling created by following a tutorial here:
+  W3schools.com (1999) CSS Navigation Bar. [online]
+  Available at: http://www.w3schools.com/css/css_navbar.asp [Accessed: 11 Dec 2012].*/
+
+#Menu > ul {
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		position: relative;
+		top: 15px;
+		left: 482px;
+}
+
+#Menu > ul > li {
+		display: inline;
+}
+
+#Menu > ul > li > a:link, #Menu > ul > li > a:visited {
+		width: 120px;
+		font-weight: bold;
+		color: #FFFFFF;
+		background-color: #b2bbbe;
+		text-align: center;
+		padding: 4px;
+		text-decoration: none;
+		text-transform: uppercase;
+}
+
+#Menu > ul > li > a:hover {
+		background-color: #888d8e;
+}
+
+/* End of menu styling. */
+
+.printmessage {
+		display: none;
+}
+
+#styleswitcher {
+		position: absolute;
+}
+
+#secret {
+		position: absolute;
+		top: 100px;
+		width: 10%;
+		display: none;
+}
+
+#homepagecontent {
+		background: #d4dcdf;
+		position: relative;
+        width: 80%;
+        height: 725px;
+        top: 10px;
+        right: 10%;
+        bottom: 0;
+        left: 10%;
+}
+
+.maindiv {
+		background: #d4dcdf;
+		position: relative;
+        width: 80%;
+        height: auto;
+        top: 10px;
+        right: 10%;
+        bottom: 0;
+        left: 10%;
+}
+
+
+#toprow {
+		position: relative;
+		width: auto;
+        height: 510px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+}
+
+#secondrow {
+		position: relative;
+		width: auto;
+        height: auto;
+        top: 10px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+}
+
+.homepagebox {
+		background: #b2bbbe;
+		width: 30%;
+        height: 500px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 0 1% 0 1%;
+        border-style: solid;
+        border-color: #888d8e;
+        border-width: thick;
+	
+}
+        
+#UpcomingGigs {
+		position: relative;
+        overflow-y: scroll;      
+}
+
+#UpcomingGigs > img {
+		position: relative;
+		left: 50px;
+}
+
+#streams {
+		position: absolute;
+        left: 33.5%;
+}
+
+#SocialMedia {
+		position: absolute;
+        left: 67%;
+}
+
+#facebook {
+		position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+}
+
+#twitter {
+		position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+}
+
+
+#News {
+		position: relative;
+		width: 97%;
+        height: 200px;
+        overflow-y: auto;
+}
+
+
+.footer {
+		background: #3a6b7b;
+		position: relative;
+        width: 78%;
+        top: 25px;
+        right: 10%;
+        bottom: 0;
+        left: 10%;
+        padding: 1%	
+}
+
+.footercontent {
+		position: relative;
+		left: 180px;
+}
+
+.footer > .footercontent > p > a:link {
+		color: #B2BBBE;
+}
+
+.footer > .footercontent > p > a:visited {
+		color: #888D8E;
+}
+
+.embeddedvid {
+		border: none;
+		padding: 0 5% 0 0;
+		position: relative;
+		left: 20%;
+}
+
+.embeddedvid > iframe {
+		width: 780px;
+		height: 439px;
+}
+
+#FamilyTreeStream {
+		position: relative;
+		padding: 5px 5px 5px 0;
+}
+
+#BearLeaderStream {
+		position: absolute;
+		left: 345px;
+		top: 5px;
+}
+
+#NeanderthalsStream {
+		position: absolute;
+		left: 686px;
+		top: 5px;
+}
+
+#streams > iframe {
+		width: 298px;
+		height: 410px;
+		position: relative;
+		display: block;
+		border: none;
+}
+
+.albumstream > iframe {
+		width: 300px;
+		height: 410px;
+		position: relative;
+		display: block;
+		border-style: solid;
+		border-width: thick;
+		border-color: #888D8E;
+}
+
+/* Form styling taken from:
+The Art and Science of CSS
+Adams, C. et al. (2007) The Art and Science of CSS. [e-book]
+Sitepoint Pty. Ltd.. p.118-131.*/
+
+label {
+		display: block;
+}
+
+li {
+		padding-top: 1em;
+}
+
+ol {
+		list-style-type:none;
+}
+
+#gigsmain {
+		background: #B2BBBE;
+		position: relative;
+        width: 80%;
+        height: auto;
+        top: 10px;
+        right: 10%;
+        bottom: 0;
+        left: 10%;
+}
+
+/* Tooltips from:
+   Modern JavaScript : develop and design
+   ULLMAN, L. E. (2012). Modern JavaScript: develop and design. Berkeley, CA, Peachpit Press. */
+
+.tooltip {
+		display: block;
+		visibility: hidden;
+		position: absolute;
+		left: 30em;
+		top: 0;
+		padding: 0.5em;
+		width: 10em;
+		border: solid 2px #425955;
+		background-color: #bfbd9f;
+}
+
+#emailTip {
+		display: none;
+}
+
+#nameTip {
+		display: none;
+}
+
+#lastnameTip {
+		display: none;
+}
+
+/* End of tooltip styling. */
+
+#stopped {
+		display: none;
+}
+
+#pastgigs > ul {
+		list-style-type: none;
+}
+
+#upcoming > ul {
+		list-style-type: none;
+}
+
+#pastgigs > ul > li, #upcoming > ul > li {
+		padding: 1em;
+}
+
+#lyrictab {
+		background: #B2BBBE;
+}
+
+
+tr {
+		padding: .25em;
+}
+
+td {
+		padding-right: 1em;
+}
+
+#presscontent {
+		background: #B2BBBE;
+}
+
+#presscontent > p {
+		padding: 0 2em 1em 2em;
+}
+
+#presscontent > h1 {
+		padding: 0 2em 0 2em;
+}
+
+/*Video menu styling created by following a tutorial here:
+  W3schools.com (1999) CSS Navigation Bar. [online]
+  Available at: http://www.w3schools.com/css/css_navbar.asp [Accessed: 11 Dec 2012].*/
+
+#vidlinks > ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 65px;
+	
+}
+
+#vidlinks > ul > li > a:link, #vidlinks > ul > li > a:visited {
+		display: block;
+		width: 160px;
+		font-weight: bold;
+		color: #FFFFFF;
+		background-color: #b2bbbe;
+		text-align: center;
+		padding: 4px;
+		margin: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+}
+
+#vidlinks > ul > li > a:hover {
+		background-color: #888d8e;
+}
+
+/* End of Video Menu styling. */
+
+#photocontent {
+		background: #B2BBBE;
+}
+
+#photocontent > p {
+		padding: .25em;
+}
+
+#stopped > p {
+		padding: .25em;
+}
+
+#slideshow {
+		position: relative;
+		left: 150px;
+}
+
+#mediadiv {
+		background: #B2BBBE;
+}
+
+#mediadiv > span {
+		position: relative;
+		left: 50px;
+		padding: 20px 20px 20px 20px;
+}

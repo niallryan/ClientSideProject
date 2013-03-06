@@ -1,0 +1,448 @@
+body {
+     	background: #f7d069;
+     	font-family: Georgia, Serif;
+     	overflow-x: hidden;
+     	
+}
+
+a:link {
+		color: #EFBD38
+}
+
+a:visited {
+		color: #F7D069;
+}
+
+h1 {
+		font-size: 1.5em;
+		border-style: solid;
+		border-width: thin;
+		background-color: #efbd38;
+		padding-left: 5px;
+}
+
+#styleswitcher {
+		position: absolute;
+}
+
+#secret {
+		position: absolute;
+		top: 100px;
+		width: 10%;
+		display: none;
+}
+
+h2 {
+		font-size: 1.25em;
+}
+
+hr {
+		color: #9d1b0e;
+}
+
+.header {
+		background: #9d1b0e;
+		position: relative;
+        width: 80%;
+        height: 350px;
+        top: 0%;
+        right: 10%;
+        bottom: 0;
+        left: 10%;	
+}
+
+#HeaderImage > img {
+		position: relative;
+		top: 3px;
+		left: 193px;
+}
+
+/*Menu styling created by following a tutorial here:
+  W3schools.com (1999) CSS Navigation Bar. [online]
+  Available at: http://www.w3schools.com/css/css_navbar.asp [Accessed: 11 Dec 2012].*/
+ 
+#Menu > ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 125px;
+	
+}
+
+#Menu > ul > li > a:link, #Menu > ul > li > a:visited {
+		display: block;
+		width: 160px;
+		font-weight: bold;
+		color: #FFFFFF;
+		background-color: #efbd38;
+		text-align: center;
+		padding: 4px;
+		margin: 10px;
+		text-decoration: none;
+		text-transform: uppercase;
+}
+
+#Menu > ul > li {
+		margin: 10px 0 10px 0;
+}
+
+#Menu > ul > li > a:hover {
+		background-color: #f13d2a;
+}
+
+/* End of menu styling. */
+
+.printmessage {
+		display: none;
+}
+
+#homepagecontent {
+		position: relative;
+        width: 80%;
+        height: 100%;
+        top: 10px;
+        right: 10%;
+        bottom: 0;
+        left: 10%;
+}
+
+.maindiv {
+		background: #b54f45;
+		position: relative;
+        width: 80%;
+        height: auto;
+        top: 10px;
+        right: 10%;
+        bottom: 0;
+        left: 10%;
+}
+
+
+#toprow {
+		position: relative;
+		width: auto;
+        height: 510px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+}
+
+#secondrow {
+		position: relative;
+		width: 65.6%;
+        height: auto;
+        top: 10px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+}
+
+.homepagebox {
+		background: #b54f45;
+		width: 30%;
+        height: 500px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 0 1% 0 1%;
+        border-style: solid;
+        border-color: #9d1b0e;
+        border-width: thick;
+	
+}
+   
+#UpcomingGigs {
+		width: 63%;
+		position: relative;
+        overflow-y: scroll;      
+}
+
+#UpcomingGigs > #gig1, #UpcomingGigs > #gig2 {
+		float: left;
+		clear: left;
+}
+
+#gig1 > img, #gig2 > img {
+		float: left;
+		padding-bottom: 10px;
+}
+
+#streams {
+		position: absolute;
+        left: 67%;
+}
+
+#SocialMedia {
+		position: absolute;
+        top: 520px;
+        left: 67%;
+}
+
+#facebook {
+		position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+}
+
+#twitter {
+		position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+}
+
+
+#News {
+		position: relative;
+		width: 97%;
+        height: 500px;
+        overflow-y: auto;
+}
+
+
+.footer {
+		background: #9d1b0e;
+		position: relative;
+        width: 78%;
+        top: 30px;
+        right: 10%;
+        bottom: 0;
+        left: 10%;
+        padding: 1%	
+}
+
+.footercontent {
+		position: relative;
+		left: 180px;
+}
+
+.footer > .footercontent > p > a:link {
+		color: #EFBD38;
+}
+
+.footer > .footercontent > p > a:visited {
+		color: white;
+}
+
+.embeddedvid {
+		border: none;
+		padding: 0 5% 0 0;
+		position: relative;
+		left: 20%;
+}
+
+.embeddedvid > iframe {
+		width: 780px;
+		height: 439px;
+		margin-bottom: 20px;
+}
+
+#FamilyTreeStream {
+		position: relative;
+}
+
+#BearLeaderStream {
+		position: absolute;
+		left: 342px;
+		top: 0px;
+}
+
+#NeanderthalsStream {
+		position: absolute;
+		left: 686px;
+		top: 0px;
+}
+
+#streams > iframe {
+		width: 300px;
+		height: 410px;
+		position: relative;
+		display: block;
+		border: none;
+}
+
+.albumstream > iframe {
+		width: 300px;
+		height: 410px;
+		position: relative;
+		display: block;
+		border-style: solid;
+		border-width: thick;
+		border-color: #9d1b0e;
+}
+
+/* Form styling taken from:
+The Art and Science of CSS
+Adams, C. et al. (2007) The Art and Science of CSS. [e-book]
+Sitepoint Pty. Ltd.. p.118-131.*/
+
+fieldset {
+		float: left;
+		clear: left;
+		width: 99.5%;
+		margin: 1.5em 0 1.5em 0;
+		padding: 0;
+}
+
+legend {
+		margin-left: 1em;
+		color: #000000;
+		font-weight: bold;
+}
+
+fieldset ol {
+		padding: 1em 1em 0 1em;
+		list-style: none;
+}
+
+fieldset li {
+		float: left;
+		clear: left;
+		width: 100%;
+		padding-bottom: 1em;
+}
+
+fieldset.submit {
+		float: none;
+		width: auto;
+		border: 0 none #FFF; padding-left: 12em;
+}
+
+label {
+		float: left;
+		width: 10em;
+		margin-right: 1em;
+}
+
+/* End of form styling. */
+
+/* Tooltips from:
+   Modern JavaScript : develop and design
+   ULLMAN, L. E. (2012). Modern JavaScript: develop and design. Berkeley, CA, Peachpit Press. */
+
+.tooltip {
+		display: block;
+		visibility: hidden;
+		position: absolute;
+		left: 30em;
+		top: 0;
+		padding: 0.5em;
+		width: 10em;
+		border: solid 2px #425955;
+		background-color: #bfbd9f;
+}
+
+#emailTip {
+		display: none;
+}
+
+#nameTip {
+		display: none;
+}
+
+#lastnameTip {
+		display: none;
+}
+
+/* End of tooltips. */
+
+#stopped {
+		display: none;
+}
+
+#gigsmain {
+		background: #b54f45;
+		position: relative;
+        width: 80%;
+        height: auto;
+        top: 10px;
+        right: 10%;
+        bottom: 0;
+        left: 10%;
+}
+
+#pastgigs > ul {
+		list-style-type: none;
+}
+
+#upcoming > ul {
+		list-style-type: none;
+}
+
+#musiccontent > p {
+		padding: 0 0 5px 5px;
+}
+
+/*Video menu styling created by following a tutorial here:
+  W3schools.com (1999) CSS Navigation Bar. [online]
+  Available at: http://www.w3schools.com/css/css_navbar.asp [Accessed: 11 Dec 2012].*/
+
+#vidlinks > ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 80px;
+		left: 15px;
+	
+}
+
+#vidlinks > ul > li > a:link, #vidlinks > ul > li > a:visited {
+		display: block;
+		width: 160px;
+		font-weight: bold;
+		color: #FFFFFF;
+		background-color: #efbd38;
+		text-align: center;
+		padding: 4px;
+		margin: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+}
+
+#vidlinks > ul > li > a:hover {
+		background-color: #f13d2a;
+}
+
+/* End of Video Menu styling. */
+
+#mediadiv {
+		background: #f7d069;
+}
+
+#mediadiv > span {
+		position: relative;
+		left: 50px;
+		padding: 0 20px 20px 20px;
+}
+
+#photocontent > p {
+		padding: .25em;
+}
+
+#stopped > p {
+		padding: .25em;
+}
+
+#slideshow {
+		position: relative;
+		left: 150px;
+}
+
+#presscontent > p {
+		padding: 0 2em 1em 2em;
+}
+
+#presscontent > h1 {
+		padding: 0 2em 0 2em;
+}
+
+#contactdiv > #extra > p {
+		padding: 0 2em 1em 2em;
+}
